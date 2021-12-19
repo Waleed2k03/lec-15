@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+#include <array>
+#include <algorithm>
+using namespace std;
+
+void hello();
+void bye();
+
+int main()
+{
+   hello();
+    bye();
+    return 0;
+}
+
+
+void hello()
+{
+    cout << "Welcome\n";
+}
+
+void bye()
+{
+    cout << "Goodbye\n";
+}
